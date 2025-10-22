@@ -1,0 +1,22 @@
+/dist/
+/target/
+/Cargo.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker volumes
+postgres_data/
+pgadmin_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
