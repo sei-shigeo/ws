@@ -20,7 +20,7 @@ pub struct MenuBarProps {
 pub fn MenuBar(props: MenuBarProps) -> Element {
     rsx! {
       div { class: "sidebar-header",
-        h2 { "WS APP" }
+        h2 { "WS APP001" }
       }
       div { class: "menu-items",
         button {
